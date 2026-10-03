@@ -1,0 +1,7 @@
+PyQt6
+pyqtgraph
+PyOpenGL
+PyOpenGL_accelerate
+numpy
+pyserial
+openai>=1.0.0

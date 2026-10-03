@@ -1,0 +1,39 @@
+{
+  "general": {
+    "mission_prefix": "MISION",
+    "operator": "",
+    "vehicle": "Cohete experimental",
+    "units": "metric",
+    "sound_alarms": false
+  },
+  "serial": {
+    "baud": 9600,
+    "expected_fast_hz": 20.0,
+    "expected_slow_hz": 1.0,
+    "link_timeout_s": 2.5
+  },
+  "limits": {
+    "battery_low_v": 10.5,
+    "battery_critical_v": 9.8,
+    "temperature_high_c": 50.0,
+    "g_high": 4.5,
+    "g_critical": 6.0,
+    "crc_rate_warn_pct": 2.0,
+    "gps_min_sats": 5
+  },
+  "simulation": {
+    "max_altitude_m": 525.0,
+    "cycle_s": 70.0,
+    "noise": 0.015,
+    "packet_loss_pct": 0.0,
+    "crc_error_pct": 0.0,
+    "gps_dropout_pct": 0.0,
+    "battery_start_v": 12.4,
+    "battery_end_v": 10.8
+  },
+  "display": {
+    "max_plot_points": 5000,
+    "autofit": true,
+    "chase_camera": true
+  }
+}

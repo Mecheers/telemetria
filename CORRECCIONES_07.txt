@@ -1,0 +1,18 @@
+GroundStation_Telemetria_nuevo_07
+=================================
+
+Compatibilidad con telemetria_pi1_asm_listo:
+
+- UART: 9600 bps, 8N1.
+- FAST esperado: 20 Hz.
+- SLOW esperado: 1 Hz.
+- TYPE_FAST = 0x01.
+- TYPE_SLOW = 0x02.
+- FAST payload = 24 bytes.
+- SLOW payload = 28 bytes.
+- CRC16-CCITT.
+- Sin cambios en el parser ni en el formato de tramas.
+
+También se mantienen las correcciones de las versiones 05 y 06:
+- _mode_es() y _phase_es().
+- Fuente global Qt válida para evitar pointSize(-1).

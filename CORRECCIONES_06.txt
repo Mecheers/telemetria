@@ -1,0 +1,7 @@
+
+GroundStation_Telemetria_nuevo_06
+=================================
+- Se fijó una QFont global válida: Segoe UI, 10 pt.
+- Esto evita que widgets hereden pointSize() = -1 y que Qt llame setPointSize(-1).
+- No se modificó el protocolo de telemetría ni el procesamiento de datos.
+- Verificación sintáctica: OK

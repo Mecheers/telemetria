@@ -1,0 +1,11 @@
+GroundStation_Telemetria_nuevo_05
+=================================
+
+Correcciones aplicadas:
+- Se agregó MainWindow._mode_es().
+- Se agregó MainWindow._phase_es() para evitar el siguiente error latente.
+- El indicador de baud rate ahora usa config.json en vez de 115200 fijo.
+- Se verificó sintaxis de todos los archivos .py.
+
+Métodos privados llamados y no definidos tras la corrección: []
+Errores de compilación sintáctica: []

@@ -1,0 +1,13 @@
+CONFIGURACIÓN DE API PARA ANALISTA IA
+
+Opción temporal dentro del software:
+1. Abra la pestaña ANALISTA IA.
+2. Pegue la clave en API KEY.
+3. La clave no se guarda en el proyecto.
+
+Opción mediante PowerShell:
+$env:OPENAI_API_KEY="su_clave"
+$env:OPENAI_MODEL="gpt-5-mini"
+python run.py
+
+El diagnóstico local funciona sin clave y sin Internet.
